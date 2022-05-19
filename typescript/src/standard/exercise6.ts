@@ -11,4 +11,8 @@ const asyncFunction = async (): Promise<string> => {
   return 'failure'
 }
 
-console.log(asyncFunction())
+asyncFunction().then(
+  (status: string) => {
+    console.log(status)
+  }
+)

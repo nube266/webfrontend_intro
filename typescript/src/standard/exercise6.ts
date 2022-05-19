@@ -3,12 +3,12 @@
 * */
 
 // 以下のコードのコメントアウトを外して修正を行う
-// const asyncFunction = async (): Promise<string> => {
-//   const nowSecond = new Date().getSeconds()
-//   if(nowSecond % 2 === 0) {
-//     return 'success'
-//   }
-//   return 'failure'
-// }
-//
-// asyncFunction() // ここに処理を追加
+const asyncFunction = async (): Promise<string> => {
+  const nowSecond = new Date().getSeconds()
+  if (nowSecond % 2 === 0) {
+    return 'success'
+  }
+  return 'failure'
+}
+
+console.log(asyncFunction())

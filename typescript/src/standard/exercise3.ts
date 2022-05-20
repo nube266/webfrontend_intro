@@ -8,12 +8,12 @@
 * */
 
 // 以下のコードのコメントアウトを外して修正を行う
-const name = 'taro' as const
+// const name = 'taro' as const
 
-const obj = {
-  name // 省略記法 name: name と同じ
-}
+// const obj = {
+//   name // 省略記法 name: name と同じ
+// }
 
-const newObj = { ...obj, name: 'jiro' as const };
+// const newObj = { ...obj, name: 'jiro' as const };
 
-console.log(newObj)
+// console.log(newObj)
